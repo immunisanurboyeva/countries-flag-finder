@@ -1,0 +1,15 @@
+.flag{
+    width: 50rem;
+    object-fit: cover;
+    height: 50rem;
+}
+.cards{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90vw;
+    margin: 0 auto;
+}
+.title{
+    width: max-content;
+}
