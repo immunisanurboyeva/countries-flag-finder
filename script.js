@@ -26,9 +26,12 @@ async function countryFunc(country) {
 function render(data, parent){
     parent.innerHTML = 
     `
-        <div class="card">
-            <h3 class="title">${data.country}</h3>
-            <img src="${data.square_image_url}" class="flag" alt="...">
+       <div class="card">
+        <img src="${data.square_image_url}" class="flag" alt="...">
+            <div class="card-textWrap"> 
+                <h2 class="title">${data.country}</h2>
+                <p class="text"> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut rem omnis dolore quasi non reprehenderit saepe, nisi inventore accusantium excepturi consectetur porro. </p>
+            </div>
         </div>
     `
 }
