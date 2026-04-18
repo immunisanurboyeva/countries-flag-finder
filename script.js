@@ -8,7 +8,6 @@ form.addEventListener('submit', (e)=>{
     countryFunc(input.value.toUpperCase());
     input.value = ''
 }) 
-
 async function countryFunc(country) {
     const res = await fetch(
         `https://api.api-ninjas.com/v1/countryflag?country=${country}`,
